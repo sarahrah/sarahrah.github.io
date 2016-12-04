@@ -1,0 +1,46 @@
+body {
+	background: url('../images/cloudbg.jpg'), white;
+	background-size: cover;
+	font-family: Helvetica, sans-serif;
+	color: #FFF;
+}
+
+h1, #slogan, #about {
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h1, #slogan {
+	color: #c5d0e2;
+}
+
+
+h1 {
+	font-size: 40px;
+	margin: 20px;
+	}
+
+#slogan {
+	font-style: italic;
+
+}
+
+
+a {
+	color: #c5d0e2;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+
+img {
+	display: block;
+    margin: auto;
+    width: 200px;
+}
+
+
+
+
