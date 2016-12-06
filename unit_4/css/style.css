@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display');
+
+body {
+	background: url('../images/cloudbg.jpg'), white;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Playfair Display', serif;
+	color: #FFF;
+}
+
+h1 {
+	font-size: 100px;
+	margin: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	}
+
+h3 {
+	font-size: 1.5em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+	display: block;
+    margin: auto;
+    width: 200px;
+}
+
+h1, #slogan, #about {
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h1, a, #slogan {
+	color: #c5d0e2;
+}
+
+#slogan {
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+#about {
+	padding-bottom: 100px;
+}
