@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display');
+
+.projecticon{
+	width: 50px;
+}
+
+#wrapper{
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+    background-color: #FFE2BB;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+ }
+
+
+/*body {
+	background: url('../images/cloudbg.jpg'), white;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Playfair Display', serif;
+	color: #FFF;
+}
+
+nav {
+	text-align: center;
+}
+
+.nav {
+	padding: 10px;
+	display: inline;
+}
+
+h1 {
+	font-size: 100px;
+	margin: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	}
+
+h3 {
+	font-size: 1.5em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+	display: block;
+    margin: auto;
+    width: 200px;
+}
+
+h1, #slogan, #bio {
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h1, a, #slogan {
+	color: #c5d0e2;
+}
+
+#slogan {
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+#bio {
+	padding-bottom: 100px;
+}
+
+.projecticon{
+	width: 50px;
+}
+*/
