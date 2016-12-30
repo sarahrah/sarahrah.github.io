@@ -1,0 +1,220 @@
+/*void #0E0B16 fuschia #A239CA jewel #4717F6 stark #E7DFDD*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display');
+
+header {
+	background-color: #4717F6; white;
+	background-size: cover;
+	background-position: center
+	padding: 20%;
+}
+
+#contents {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E7DFDD;
+}
+
+.navitems {
+	float: left;
+
+}
+
+.navitems a {
+	display: block;
+	padding: 1em;
+	text-align: center;
+}
+
+
+.navitems a:hover {
+	background-color: #4717F6;
+	color: #E7DFDD;
+}
+
+
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: #0E0B16;
+}
+
+h1 {
+	font-size: 6em;
+	padding: .5em 0;
+	margin: 0 .2em;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #E7DFDD;
+	}
+
+h3 {
+	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #4717F6;
+}
+
+a {
+	text-decoration: none;
+	color: #0E0B16;
+}
+
+footer {
+	padding: 2em 0;
+}
+
+button {
+	font-family: 'Playfair Display';
+	font-size: 1em;
+	border: 2px solid #A239CA;
+	background-color: white;
+	padding: 1em .5em;
+	
+}
+
+.projecticon{
+	width: 50px;
+}
+
+#wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#storyboard {
+	width: 100%;
+}
+
+ #aboutme {
+ 	border: 1px black solid;
+ 	padding: 2em;
+ 	margin: 1em 0;
+
+ }
+
+ #mainimage {
+ 	padding: 2%;
+ 	float: left;
+ 	width: 25%;
+ }
+
+ #bio {
+ 	width: 62%;
+ 	padding: 2%;
+ 	float:right; 	
+ }
+
+#work {
+	width: 100%;
+}
+
+ .projects {
+ 	width: 20%;
+ 	height: 120px;
+ 	margin: 1%;
+ 	padding: 1.5em 1%;
+ 	float: left;
+ 	text-align: center;
+ }
+
+ .projects:hover {
+ 	background-color: #E7DFDD;
+ }
+
+ #skills {
+ 	width: 100%;
+ }
+
+ #skillsone {
+ 	float:left;
+ 	width: 50%;
+ }
+
+ #skillstwo {
+ 	float:right; 
+ 	width: 50%;
+ }
+
+ #praise {
+ 	width: 100%;
+ }
+
+ .quotes {
+ 	width: 29%;
+ 	height: 150px;
+ 	margin: 1%;
+ 	padding: 1%;
+ 	float: left;
+ 	font-size: .8em;
+ 	font-style: italic;
+ 	background-color: #4717F6;
+ 	color: #E7DFDD;
+ }
+
+
+ .clearfix:after {
+ 	visibility: hidden;
+ 	display: block;
+ 	font-size: 0;
+ 	content: " ";
+ 	clear: both;
+ 	height: 0;
+ }
+
+ @media only screen and (max-width: 860px) {
+ 	#mainimage {
+ 		float: none;
+ 		width: 90%;
+ 		padding: 0 5%;
+ 	}
+ 	#bio {
+ 		float: none;
+ 		width: 90%;
+ 		padding: 5%;
+ 		text-align: left;
+ 	}
+
+ 	h3 {
+ 		text-align: center;
+ 	}
+ }
+
+ @media only screen and (max-width: 610px) {
+ 	h1 {
+ 		font-size: 4em;
+ 		text-align: center;
+ 	}
+
+ 	.projects {
+ 		float: none;
+ 		width: 96%;
+ 		border: 1px black solid;
+ 	}
+
+ 	h3 {
+ 		text-align: center;
+ 	}
+
+ 	#aboutme {
+ 		border: none;
+ 		width: 95%;
+ 		padding:1%;
+ 	}
+
+ 	.quotes {
+ 		float: none;
+ 		width: 94%;
+ 		margin-top:1em;
+ 		height: 80px;
+ 	}
+
+ 	button {
+ 		width: 100%
+ 	}
+
+ 	#phone {
+ 		text-align: center;
+ 	}
+}
