@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik');
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navitems {
+	float: left;
+}
+
+.navitems a {
+	display: block;
+	padding: 1em;
+	text-align: center;
+}
+
+.navitems a:hover {
+	border-width: 2px;
+    border-radius: 20px;
+    border-color: #0E0B16;
+    background-color: #0E0B16;
+}
+
+header {
+	background: url("../images/desk2.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 40em;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+h1 {
+	font-family: 'Roboto Mono', serif;
+	font-size: 8em;
+	text-align: center;
+	padding: 10px;
+	/*color: #DBC94B;*/
+	margin-top: 100px;
+	margin-bottom: -5px;
+	color: white;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: -20px;
+	color: #0E0B16;
+
+}
+
+#cta {
+	text-align: center;
+}
+
+button {
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #0E0B16;
+    background-color: #0E0B16;
+    margin: -5px auto;
+    padding: 15px;
+    min-width: 200px;
+    letter-spacing: 2px;
+    font-family: 'Rubik';
+    font-size: 18px;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	font-size: 15px;
+}
+
+
+#about {
+	padding: 2em;
+	margin: 1em auto;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2em;
+}
+
+#blurb {
+	width: 60%;
+	padding: 2%;
+	float: left;
+
+}
+
+#tiga {
+	width: 30%;
+	padding: 2%;
+	float: left;
+	border: 5px black solid;
+}
+
+.projects {
+	background-color: #616162;
+}
+
+.projecticon {
+	width: 80px;
+	float: left;
+ }
+
+ .projectbutton {
+ 	float: right;
+ }
+
+#work {
+	padding: 2.5%;
+	margin: 2.5% auto;
+	width: 90%;
+}
+
+#pro1, #pro3 {
+ 	float: left;
+ 	padding: 2%;
+ 	margin: 2% auto;
+ 	width: 44%;
+ 	height: 300px;
+ }
+
+#pro2, #pro4 {
+ 	float: right;
+ 	padding: 2%;
+ 	margin: 2% auto;
+ 	width: 44%;
+ 	height: 300px;
+ }
+
+
+h4 {
+	font-size: 1.25em;
+	margin-bottom: -.5em;
+}
+
+
+footer {
+	background: url("../images/pencils.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 40em;
+	padding: 2em;
+}
+
+#contactdetails {
+	text-align: center;
+}
+
+.projectheader {
+	background: url("../images/grad.jpg");
+	height: 8em;	
+	background-size: cover;
+}
+
+#smalltitle {
+	font-size: 3em;
+	padding: 10px;
+	margin: 20px;
+}
+
+#highlevel {
+	border: 1px solid black;
+	margin: 1em;
+	padding: 0.5em;
+	text-align: center;
+}
+
+#back {
+	margin: 1em;
+	padding: 1em;
+	float: right;
+}
+
+.clearfix:after {
+ 	visibility: hidden;
+ 	display: block;
+ 	font-size: 0;
+ 	content: " ";
+ 	clear: both;
+ 	height: 0;
+ }
+
+@media only screen and (max-width: 860px) {
+
+	h1 {
+		font-size: 5em;
+	}
+
+	h2 {
+		margin-top: -10px;
+	}
+
+	#blurb {
+		width: 45%;
+	}
+
+	#tiga {
+		width: 45%;
+	}
+
+	#pro1, #pro2, #pro3, #pro4 {
+		float: none;
+		width: 90%;
+		padding: 2.5%;
+ 		margin: 2.5% auto;
+ 		height: 300px;
+	}
+
+	.projectbutton {
+		margin-bottom: 1em;
+	}
+
+	footer {
+		height: 500px;
+	}
+
+}
+
+@media only screen and (max-width: 720px) {
+
+	#blurb, #tiga {
+		float: none;
+		width: 90%;
+		margin: 2.5%;
+		padding: 2.5%;
+	}
+
+}
+
+@media only screen and (max-width: 560px) {
+
+	h1 {
+		margin-top: -10px;
+	}
+
+	h2 {
+		margin-top: 20px;
+	}
+
+	body {
+		font-size: 17px;
+	}
+
+	#smalltitle{
+		font-size: 2em;
+	}
+
+	#pro1, #pro2, #pro3, #pro4 {
+		height: 400px;
+	}
+
+	footer {
+		height: 360px;
+	}
+
+
+}

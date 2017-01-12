@@ -38,7 +38,7 @@ header {
 
 body {
 	font-family: 'Playfair Display', serif;
-	font-size: 16px;
+	font-size: 15px;
 	color: #0E0B16;
 }
 
@@ -110,7 +110,7 @@ button {
 	width: 100%;
 }
 
- .projects {
+ .projects1, .projects2 {
  	width: 20%;
  	height: 120px;
  	margin: 1%;
